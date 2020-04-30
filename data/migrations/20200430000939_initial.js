@@ -34,8 +34,6 @@ exports.up = async function (knex) {
 			.inTable('ingredients')
 			.onDelete('CASCADE')
 			.onUpdate('CASCADE');
-		table.date('from_date').defaultTo(knex.raw('current_timestamp'));
-		table.date('to_date');
 
 		table.primary(['recipe_id', 'ingredient_id']);
 	});

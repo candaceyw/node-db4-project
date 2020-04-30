@@ -7,6 +7,6 @@ exports.seed = async function (knex) {
 		{ ingredient_name: 'white bread', qty_id: 5 },
 		{ ingredient_name: 'mayonnaise', qty_id: 6 },
 		{ ingredient_name: 'cheddar cheese', qty_id: 7 },
-		{ ingredient_name: 'shredded cheddar', qty_id: 6 },
+		{ ingredient_name: 'shredded cheese', qty_id: 6 },
 	]);
 };
